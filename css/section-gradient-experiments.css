@@ -1,0 +1,133 @@
+  /*-------------------------------------*/
+  /*-----------INGENIAR RISK--------*/
+
+   /*-----------V01--------*/
+  .ingeniar-home{
+    /* background-color: var(--ingeniar3); */
+    background: linear-gradient(43deg, #39475a, #39475a, #31bdc1);
+    background-size: 600% 600%;
+    -webkit-animation: IngSectionGradient 32s ease infinite;
+    -moz-animation: IngSectionGradient 32s ease infinite;
+    -o-animation: IngSectionGradient 32s ease infinite;
+    animation: IngSectionGradient 32s ease infinite;
+  }
+  @-webkit-keyframes IngSectionGradient {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-moz-keyframes IngSectionGradient {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-o-keyframes IngSectionGradient {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@keyframes IngSectionGradient {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+
+
+   /*-----------V02--------*/
+  .ingeniar-home{
+    /* background-color: var(--ingeniar3); */
+    background: linear-gradient(43deg, #142439, #39475a, #233145);
+    background-size: 600% 600%;
+    -webkit-animation: IngSectionGradient2 24s ease infinite;
+    -moz-animation: IngSectionGradient2 24s ease infinite;
+    -o-animation: IngSectionGradient2 24s ease infinite;
+    animation: IngSectionGradient2 24s ease infinite;
+  }
+  @-webkit-keyframes IngSectionGradient2 {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes IngSectionGradient2 {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes IngSectionGradient2 {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes IngSectionGradient2 {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+
+  /*-------------------------------------*/
+  /*-----------MAKRO OFFICE--------*/
+
+   /*-----------V01--------*/
+   .mkro-home{
+    background: linear-gradient(43deg, #0B0B19, #17171d, #0B0B19);
+    background-size: 600% 600%;
+    -webkit-animation: MkoSectionGradient1 24s ease infinite;
+    -moz-animation: MkoSectionGradient1 24s ease infinite;
+    -o-animation: MkoSectionGradient1 24s ease infinite;
+    animation: MkoSectionGradient1 24s ease infinite;
+    }
+    @-webkit-keyframes MkoSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes MkoSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-o-keyframes MkoSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes MkoSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+
+  /*-------------------------------------*/
+ /*--------S&S--------*/
+
+ .sys-home{
+    background-color: #cf3638;
+    margin-top: -1px;
+    background: linear-gradient(43deg, #860306, #AC1A1E, #CF363A, #860306);
+    background-size: 600% 600%;
+    -webkit-animation: sysSectionGradient1 45s ease infinite;
+    -moz-animation: sysSectionGradient1 45s ease infinite;
+    -o-animation: sysSectionGradient1 45s ease infinite;
+    animation: sysSectionGradient1 45s ease infinite;
+    }
+    @-webkit-keyframes sysSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes sysSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-o-keyframes sysSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes sysSectionGradient1 {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }

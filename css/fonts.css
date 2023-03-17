@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Agp-Bold';
+	src: url('../fonts/Adobe-Garamond-ProBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+    color: aqua;
+}
+@font-face {
+	font-family: 'Agp-Bold-It';
+	src: url('../fonts/Adobe-Garamond-ProBold-Italic-6769.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+    color: aqua;
+}
+@font-face {
+	font-family: 'Agp-Regular';
+	src: url('../fonts/Adobe-Garamond-Pro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Av-Book';
+	src: url('../fonts/Avenir-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Av-Italic';
+	src: url('../fonts/AvenirNextLTPro-It.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Av-Bold';
+	src: url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
