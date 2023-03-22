@@ -1,0 +1,433 @@
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*---MEDIA QUERY PANTALLAS EXTRA GRANDES---*/
+/*-------------------------------------*/
+@media (min-width: 1401px){
+    /*--------------SECCIONES------------*/
+    #he-hero{padding: 0 !important;}
+    #main-header{
+        height: calc(100vh - 1rem);
+    }
+    #text-wrapper{
+        bottom: calc(100% - 65%) !important;
+    }
+    section#about{background-size: 25%;}
+    section#featured-projects{background-size: 15%;}
+    /*--------------TEXTOS------------*/
+    .feature-title{margin-bottom: 5rem; max-width: 1000px;}
+    /*-----------FOOTER---------*/
+    .block-widget iframe{
+        min-height: 500px;
+    }
+  } 
+
+  /*-------------------------------------*/
+/*-------------------------------------*/
+/*---MEDIA QUERY PANTALLAS GRANDES---*/
+/*-------------------------------------*/
+@media (min-width: 1200px){
+    /*--------------SECCIONES------------*/
+    /* #main-header{
+        height: calc(100vh - 150px);
+    } */
+    section:not(#featured-projects){padding-top: 3rem;}
+    #he-hero{padding: 0 !important; overflow: visible;}
+    section#about{background-size: 25%;}
+    section#featured-projects{background-size: 15%;}
+    /*__Btn "scroll down to see more"__*/
+    .cta-wrapper {
+       margin-bottom: -150px;
+    }
+    .cta-wrapper a{
+        max-width: 300px;
+    }
+    .cta-wrapper a p{
+        background-color: #0000002b; border-left: 1px solid; border-right: 1px solid; text-transform: uppercase;
+    }
+    /*--------------TEXTOS------------*/
+    .feature-title{margin: 5rem auto; max-width: 900px; line-height: 6rem;}
+    /*-----------FOOTER---------*/
+    .block-widget iframe{
+        min-height: 500px;
+    }
+  }
+  /*-------------------------------------*/
+/*-------------------------------------*/
+/*---MEDIA QUERY PANTALLAS GRANDES---*/
+/*-------------------------------------*/
+@media (min-width: 1024px){
+    /*--------------SECCIONES------------*/
+    #text-wrapper{
+        bottom: calc(100% - 75%);
+    }
+  }
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*---MEDIA QUERY TABLET HORIZONTAL 1024PX---*/
+/*-------------------------------------*/
+
+ /* Landscape */
+ @media all
+ and (device-width: 1024px) 
+ and (orientation: landscape) 
+ and (-webkit-min-device-pixel-ratio: 1) {
+    .ft-proj .feature-title{
+        padding: 2.1rem !important;
+        margin: 2rem auto !important;
+    }
+ }
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*---MEDIA QUERY IPAD AIR y Kindle Fire 820PX---*/
+/*-------------------------------------*/
+
+ /* Landscape */
+ @media all
+ and (min-device-width: 769px)
+ and (max-device-width: 900px) 
+ and (orientation: portrait) 
+ and (-webkit-min-device-pixel-ratio: 1) {
+    #he-hero .container{
+        align-self: end;
+    }
+    #he-hero, #main-header{
+        height: calc(100vh - 36vh) !important;
+    }
+    #perro.one{top: calc(-2em - 60px);}
+ }
+  /*__EXPERIENCIA__*/   
+  #listExperience a.list-group-item.list-group-item-action{
+    width: 100%;;
+}
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*---MEDIA QUERY HASTA 770px---*/
+/*-------------------------------------*/
+@media (min-width: 770px){
+    .m-only{display: none;}
+    /*-----------SLIDER--------*/
+    .slider__wrapper{
+       max-height: 670px;
+    }
+    .slider__wrapper.slider2{
+       max-height: 670px;
+    }
+    /* .swiper-cube img.w-100{
+       margin-top: -80px;
+    } */
+ } 
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*---MEDIA QUERY HASTA 768 PX---*/
+/*-------------------------------------*/
+@media (max-width: 768px){
+    .desk-only{display: none;}
+    /*--------------HEADER------------*/
+    #globalHeader{
+       background-color: var(--he-dark-grey) /*#181818f7*/;
+       max-height: 60px; padding-top: 0;
+       position: fixed; border-bottom: .5px solid #b9a15733;
+   }
+    a.navbar-brand.he-brand{
+       height: 50px; width: 50px; margin-top: -15px;
+    }
+    a.navbar-brand.he-brand img{
+       display: block; margin: -5px auto; max-width: 50px !important;
+    }
+    .nav-toggle{
+       display: block; position: fixed; top:10px; right: 0; margin-right: 25px;
+    }
+    .nav-menu{
+       background-image: /*linear-gradient(0deg, #1b1b1b, var(--he-dark-grey), #181818f7)*/ conic-gradient(var(--he-darker-grey), black, var(--he-dark-grey));
+       position: fixed; width: 100%; top: 0; left: 100%; align-items: center; height: calc(100% - 60px); overflow-y: auto; transition: left .25s ease-in-out; display:flex; flex-direction: column; padding: 20px 0; justify-content: center !important; z-index: -1;
+       border-bottom: .5px solid #b9a15733;
+    }
+    .nav-menu::before {
+       content: "";
+       position: absolute;
+       /* border: 1px solid pink; */
+       top: 0;
+       left: 0;
+       height: calc(100% - 60px);
+       width: 100vw;
+       backdrop-filter: blur(1px);
+   }
+    .fa-solid.fa-bars{display: block;}
+    .nav-menu-link:hover,
+    .active{
+       background-color: var(--he-red);
+       padding: 8px;
+       color: white !important;
+    }
+    .nav-menu_visible{
+       left:0;
+    }
+     /*------------------------------------*/
+   /*-----------LINKS---------*/
+   a .feature-title:hover{
+    font-size: 3.1rem;
+   }
+
+    /*-----------TEXTOS---------*/
+    #hi{font-size:2em;}
+      .super-text{font-size: 1.5rem; line-height: 2rem !important;}
+
+   /*--------------SECCIONES------------*/
+   section#main-bio, section#moodboard-intro{
+    padding-top: 4rem !important ;
+   }
+   #main-header{
+    clip-path: none; overflow: hidden;
+   }
+   .ft-proj .row:first-child{
+       max-height: 180px;
+   }
+   .container.text-wrapper .col:first-child{
+       max-height: calc(100% - 100px)
+   }
+   #he-hero .text-wrapper{
+    bottom: 0;
+   }
+   section#about .container:first-child::after{
+    bottom: -10px;
+   }
+   section#about .skills-home .row{
+    background-image: none;
+   }
+
+  /*-----------CONTENEDORES---------*/
+
+  /*--HERO HOME--*/
+   .container.text-wrapper .col:last-child p{
+    font-size: 1rem; line-height: 1.7rem !important;
+   }
+
+    /*--- IMÁGENES PARALLAX -------*/
+    .one{top: -28em; opacity: .8;}
+
+    /*-------- SLIDERS DEL HOME--------*/
+    .slider__wrapper{
+       height: 100%; max-height: 1000px;
+    }
+    .swiper-cube img.w-100{
+       margin-top: 0;
+    }
+    .swiper-wrapper{
+        max-height: 325px;
+    }
+    video{
+        height: 200px;
+    }
+    .project-description.row{
+        padding-top: 4em !important; 
+     }
+     .swiper-pagination-bullet{
+        width: 9px; height: 9px;
+     }
+     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        width: 35% !important;  /*__Los estilos principales de este componente están en swiper-bundle.min.css__*/  }
+   /*-----------IMÁGENES---------*/
+   #main-bio img{
+    max-width: 700px;
+    max-height: 1050px;
+    transition: all .75s ease-in-out;
+    filter: none;
+   }
+   #main-bio:before{
+    max-height: 800px;
+    width: 100%; max-width:600px;
+   }
+
+    /*__EXPERIENCIA__*/   
+    #listExperience a.list-group-item.list-group-item-action{
+        width: 100%;
+    }
+ } 
+
+/*---------------------------------------------*/
+/*-------------------------------------------*/
+/*----MEDIA QUERIES CELULAR HASTA 576px-----*/
+/*-------------------------------------*/
+
+@media (max-width: 575.98px) {
+    /*-------------------------------------*/
+    /*-----------GLOBAL HEADER/FOOTER---------*/
+    #nav-wrapper{
+        padding: 0 !important;
+    }
+    #nav-wrapper .navbar-header{
+        overflow: hidden; height: 70px;
+    }
+    .navbar-header{
+        height: 70px;
+    }
+    .navbar-brand.he-brand img{
+        top: -15px !important; margin: auto; max-width: 70px !important;
+        left: 0; right: 0;
+    }
+    .wa-menu{
+        display: grid; grid-template-columns: 1fr 1fr;
+    }
+    .wa-link{
+        padding: 2rem !important; text-align: center;
+    }
+    .wa-menu ul{padding-left: 0;}
+
+   /*------------------------------------*/
+   /*-----------TEXTOS---------*/
+
+    .feature-title{
+        line-height: 2.6rem; margin: 2rem auto !important;
+    }
+    /*INTRO*/
+    /* #main-header{
+        height: calc(100vh - 30%);  
+      } */
+      #main-header, #he-hero, #he-hero::before{
+        height: calc(100vh - 3em);  
+      }
+    #text-wrapper{
+        display: flex; flex-flow: column; margin-top: 100px; height: 50vh;
+    }
+
+    /*-----------SECCIONES---------*/
+    section{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+       /*overflow-y: scroll;*/ overflow-x:hidden;
+    }
+    section:not(#about, #featured-projects){
+        padding-top: 2rem;
+    }
+    section .row{
+        padding: 1rem !important;
+    }
+    section#featured-projects .container-fluid{
+        padding: 0 !important;
+    }
+    /*______HERO_______*/
+    section .Section-title-container{
+        padding: 0 !important;
+    }
+    #text-wrapper .col{
+        max-height: 130px;
+    }
+    #text-wrapper .cta-wrapper{
+      order: 3 !important; margin-bottom: 1rem; margin-top: 0; max-height: 50px;
+    }
+    #text-wrapper .cta-wrapper a{
+      height: 70px;
+    }
+    #text-wrapper .cta-wrapper p{
+      display: none;
+    }
+    /*____ABSTRACT____*/
+    section#about .skills-home ul{
+        max-width: 333px; overflow-x: scroll;
+        padding-left: 240px;
+    }
+    section#about .skills-home ul li{
+        line-height: 1rem; padding: 0 10px; font-size: 10px;
+    }
+    /*____FEATURED PROJECTS BANNER____*/
+    #featured-projects{
+        background-size: 53%;
+    }
+    /*____MAIN BIO___*/
+    #main-bio .Section-title-container{
+        padding: 0 !important;
+    }
+    #main-bio .feature-title{
+        text-align: center;
+    }
+    #main-bio .bio-img-wrapper:before{
+        max-width: 600px; max-height: 560px;
+    }
+    #main-bio .col-md-5.bio-img-wrapper{
+        margin-bottom: 50px;
+    }
+    #ingeniar-home::before{
+        top: -45px;
+    }
+
+    /*------TEXTO ANIMADO BIO----*/
+    .dynamic-text-wrapper{
+        display: flex;  justify-content: center;
+        padding-left: ; 
+        margin-top: 2rem;
+    }
+    /*-------------------------------------*/
+    /*-------------IMÁGENES PARALLAX----------*/
+    .two,.three{display: none;}
+
+    /*-----------SLIDER--------*/
+    .swiper{
+        margin-left: -32px !important; min-width:calc(100vw + 32px) ;
+    }
+      .slider__wrapper{
+          max-height: 250px;
+      }
+      .swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper{
+        perspective: 2500px !important;
+      }
+
+      /*-----------EXPERIENCIA--------*/
+      .scrollspy-wrapper .col-4, .scrollspy-wrapper .col-8{
+        width: 100% !important;
+      } 
+      .scrollspy-wrapper .col-4{
+        margin-bottom: 2rem;
+      } 
+      #listExperience a.list-group-item.list-group-item-action{
+        text-align: center !important; background-color: var(--he-blue);
+        border-radius: 25px !important; margin-bottom: 0.5rem;
+      }
+      .scrollspy-items{
+        border-top-right-radius: none !important;
+      }
+    }
+/*---------------------------------------------*/
+/*-------------------------------------------*/
+/*----MEDIA QUERIES CELULAR HASTA 400px-----*/
+/*-------------------------------------*/
+
+@media (max-width: 400px) {
+    /* #text-wrapper{ 
+        height: 55vh;
+    } */
+    .feature-title{
+        font-size: 3rem;
+    }
+    #he-hero .text-wrapper{
+        bottom: 12rem;
+    }
+    section#about .skills-home ul{
+        padding-left: 180px;
+    }
+    #text-wrapper .cta-wrapper a img{
+       position: absolute; display: block; bottom: 0;
+       right: 0; opacity: .7; margin-bottom: -145px;
+    }
+    #ingeniar-home::before{
+        display: none;
+    }
+    .block-widget{
+        max-height: 320px;
+    }
+}
+/*-------------------------------------*/
+   /*-----------CUSTOM BOOTSTRAP---------*/
+
+   @media (min-width: 300px){
+    .p-xs-0 {
+      padding: 0 !important;
+    }
+    .p-xs-1 {
+      padding: 0 !important;
+    }
+    .p-xs-3 {
+        padding: 1rem !important;
+      }
+  } 
