@@ -131,7 +131,7 @@
        position: fixed; border-bottom: .5px solid #b9a15733;
    }
     a.navbar-brand.he-brand{
-       height: 50px; width: 50px;
+       height: 50px; width: 50px; margin-top: -15px;
     }
     a.navbar-brand.he-brand img{
        display: block; margin: -5px auto; max-width: 50px !important;
@@ -164,6 +164,11 @@
     .nav-menu_visible{
        left:0;
     }
+     /*------------------------------------*/
+   /*-----------LINKS---------*/
+   a .feature-title:hover{
+    font-size: 3.1rem;
+   }
 
     /*-----------TEXTOS---------*/
     #hi{font-size:2em;}
@@ -231,8 +236,8 @@
     filter: none;
    }
    #main-bio:before{
-    max-height: 750px;
-    width: 100%; max-width:400px;
+    max-height: 800px !important;
+    width: 100%; max-width:600px !important;
    }
 
     /*__EXPERIENCIA__*/   
@@ -269,7 +274,7 @@
         padding: 2rem !important; text-align: center;
     }
     .wa-menu ul{padding-left: 0;}
-   
+
    /*------------------------------------*/
    /*-----------TEXTOS---------*/
 
@@ -281,7 +286,7 @@
         height: calc(100vh - 30%);  
       } */
       #main-header, #he-hero, #he-hero::before{
-        height: calc(100vh - 10em);  
+        height: calc(100vh - 3em);  
       }
     #text-wrapper{
         display: flex; flex-flow: column; margin-top: 100px; height: 50vh;
@@ -293,8 +298,14 @@
       padding-right: 0 !important;
        /*overflow-y: scroll;*/ overflow-x:hidden;
     }
+    section:not(#about, #featured-projects){
+        padding-top: 2rem;
+    }
     section .row{
         padding: 1rem !important;
+    }
+    section#featured-projects .container-fluid{
+        padding: 0 !important;
     }
     /*______HERO_______*/
     section .Section-title-container{
@@ -343,7 +354,9 @@
 
     /*------TEXTO ANIMADO BIO----*/
     .dynamic-text-wrapper{
-        display: flex; justify-content: center;
+        display: flex;  justify-content: center;
+        padding-left: ; 
+        margin-top: 2rem;
     }
     /*-------------------------------------*/
     /*-------------IMÁGENES PARALLAX----------*/
@@ -359,6 +372,21 @@
       .swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper{
         perspective: 2500px !important;
       }
+
+      /*-----------EXPERIENCIA--------*/
+      .scrollspy-wrapper .col-4, .scrollspy-wrapper .col-8{
+        width: 100% !important;
+      } 
+      .scrollspy-wrapper .col-4{
+        margin-bottom: 2rem;
+      } 
+      #listExperience a.list-group-item.list-group-item-action{
+        text-align: center !important; background-color: var(--he-blue);
+        border-radius: 25px !important; margin-bottom: 0.5rem;
+      }
+      .scrollspy-items{
+        border-top-right-radius: none !important;
+      }
     }
 /*---------------------------------------------*/
 /*-------------------------------------------*/
@@ -366,12 +394,31 @@
 /*-------------------------------------*/
 
 @media (max-width: 400px) {
-    #text-wrapper{ 
+    /* #text-wrapper{ 
         height: 55vh;
+    } */
+    .feature-title{
+        font-size: 3rem;
+    }
+    #he-hero .text-wrapper{
+        bottom: 12rem;
+    }
+    section#about .skills-home ul{
+        padding-left: 180px !important;
     }
     #text-wrapper .cta-wrapper a img{
        position: absolute; display: block; bottom: 0;
-       right: 0; opacity: .7; margin-bottom: -50px;
+       right: 0; opacity: .7; margin-bottom: -145px;
+    }
+    #main-bio:before{
+        max-height: 800px !important;
+        width: 100%; max-width:600px !important;
+       }
+    #ingeniar-home::before{
+        display: none;
+    }
+    .block-widget{
+        max-height: 320px;
     }
 }
 /*-------------------------------------*/
