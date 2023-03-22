@@ -235,6 +235,9 @@ html, body {
   #globalFooter .social-links ul li{
     margin: 0.5rem;
   }
+  #globalFooter .disclaimer {
+    border-top: 1px solid #323333; padding-top: 0.7rem;
+  }
   #globalFooter .disclaimer p{
     font-size: 14px;
   }
