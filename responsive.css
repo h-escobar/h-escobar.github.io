@@ -236,8 +236,8 @@
     filter: none;
    }
    #main-bio:before{
-    max-height: 800px;
-    width: 100%; max-width:600px;
+    max-height: 800px !important;
+    width: 100%; max-width:600px !important;
    }
 
     /*__EXPERIENCIA__*/   
@@ -404,12 +404,16 @@
         bottom: 12rem;
     }
     section#about .skills-home ul{
-        padding-left: 180px;
+        padding-left: 180px !important;
     }
     #text-wrapper .cta-wrapper a img{
        position: absolute; display: block; bottom: 0;
        right: 0; opacity: .7; margin-bottom: -145px;
     }
+    #main-bio:before{
+        max-height: 800px !important;
+        width: 100%; max-width:600px !important;
+       }
     #ingeniar-home::before{
         display: none;
     }
