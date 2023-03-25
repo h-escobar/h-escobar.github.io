@@ -95,6 +95,11 @@
         height: calc(100vh - 36vh) !important;
     }
     #perro.one{top: calc(-2em - 60px);}
+
+    section#about .skills-home .row{
+        background-size: 35%;
+        background-position: left center , bottom , right center;
+    }
  }
   /*__EXPERIENCIA__*/   
   #listExperience a.list-group-item.list-group-item-action{
@@ -188,7 +193,7 @@
        max-height: calc(100% - 100px)
    }
    #he-hero .text-wrapper{
-    bottom: 0;
+    bottom: calc(0px + 23%);
    }
    section#about .container:first-child::after{
     bottom: -10px;
@@ -205,7 +210,7 @@
    }
 
     /*--- IMÁGENES PARALLAX -------*/
-    .one{top: -28em; opacity: .8;}
+    .one{top:calc(-21em + 7rem); opacity: .8;}
 
     /*-------- SLIDERS DEL HOME--------*/
     .slider__wrapper{
@@ -325,7 +330,7 @@
     }
     /*____ABSTRACT____*/
     section#about .skills-home ul{
-        max-width: 333px; overflow-x: scroll;
+        /*max-width: 333px; */overflow-x: scroll;
         padding-left: 240px;
     }
     section#about .skills-home ul li{
