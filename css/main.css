@@ -375,7 +375,7 @@ section#about .skills-home .row{
   filter: grayscale(0) !important;
 } */
 section#about .skills-home ul{
-  font-size: 12px; visibility: visible; list-style-type: none; background-color: #ffffffeb; border-radius: 25px; align-items: center; justify-content: space-around; padding: 1rem; box-shadow: 0px 0px 26px #17171d1a;
+  font-size: 12px; visibility: visible; list-style-type: none; background-color: #ffffffeb; border-radius: 25px; align-items: center; justify-content: space-around; padding: 1rem; box-shadow: 0px 0px 26px #17171d1a; width:100%;
 }
 section#about .skills-home ul li{text-align: center; width: 100%;}
 section#about .skills-home ul li:not(:first-child){
