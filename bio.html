@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8GE7ZR9386"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GE7ZR9386"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-8GE7ZR9386');
-</script>
+    gtag('config', 'G-8GE7ZR9386');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,214 +18,324 @@
     <link rel="icon" type="image/png" sizes="16x16" href="imgs/icons/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="author" content="Rafael Hinestroza Escobar." />
-    <meta property="og:image" content="https://h-escobar.github.io/imgs/preview1.jpg">
+    <meta property="og:image" content="ttps://h-escobar.github.io/imgs/preview1.jpg">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no">
-    <meta name="twitter:card" content="https://h-escobar.github.io/imgs/preview1.jpg">
+    <meta name="twitter:card" content="ttps://h-escobar.github.io/imgs/preview1.jpg">
     <meta name="twitter:title" content="H-escobaR VISUAL DESIGN">
-    <meta name="twitter:description" content="Rafael Hinestroza Escobar's biography.">
+    <meta name="twitter:description" content="Rafael Hinestroza Escobar's moodboard.">
     <meta name="twitter:creator" content="@H_escobarR">
     <meta name="twitter:image" content="https://h-escobar.github.io/imgs/preview1.jpg">
     <meta name="theme-color" content="#ffffff">
     <meta property="fb:app_id" content="337152053454164" />
     <meta property="og:title" content="H-escobaR VISUAL DESIGN" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.hescobar.com/en" />
-    <meta property="og:image" content="https://h-escobar.github.io/imgs/preview1.jpg"/>
-    <meta property="og:description" content="Rafael Hinestroza Escobar's biography." />
+    <meta property="og:url" content="https://h-escobar.github.io/imgs/preview1.jpg" />
+    <meta property="og:image" content="https://www.hescobar.com/storage/app/media/preview.jpg" />
+    <meta property="og:description" content="Rafael Hinestroza Escobar's moodboard." />
     <meta property="og:site_name" content="H-escobaR VISUAL & WEB DESIGN" />
-    <title>Bio | HescobaR - Visual & Web Design</title>
+    <title>Moodboard | HescobaR - Visual & Web Design</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/4f468b32bc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
 </head>
-<body>
-    <header id="globalHeader"></header>
+<body id="moodboard">
+    <header id="globalHeader" class="topheader"></header>
+    <div id="LangSwitcher" class="lang-switcher-wrapper d-flex" title="Leer en español">
+    </div>
     <button id="back-to-top-btn" onclick="scrollToTop();"></button>
-    <!--=======WHO AM I=======-->
-    <section id="main-bio" class="animate__animated animate__fadeInUpBig">
-       <div class="container">
-        <div class="row p-5">
-            <div class="col-md-12 text-center">
-                              
-            </div>
-        </div>
-        <div class="row p-5 p-sm-2 justify-content-evenly">
-            <div class="col-md-5 bio-img-wrapper">
-                <div class="Section-title-container pt-5 mb-sm-5 mb-xs-4">
-                    <h2 class="feature-title white" tabindex="0">
-                        Who's Rafael?
-                    </h2>
-                </div> 
-                <figure id="foto" class="w-100">
-                    <img src="imgs/foto-about-me_compressed.jpeg" alt="" class="w-100" >
-                </figure>
-            </div>
-            <div id="bio-featured-text-wrapper" class="col-md-6 featured-text bio-featured-text-wrapper pt-sm-1 pt-xs-2 animate__animated animate__fadeInUpBig animate__delay-2s">
-                <div class="dynamic-text-wrapper">
-                    <h2 class="static-text" tabindex="1">
-                        Someone 
-                    </h2>
-                    <ul class="dynamic-text of-hidden" tabindex="2">
-                        <li><span>methodic,</span></li>
-                        <li><span>active,</span></li>
-                        <li><span>driven,</span></li>
-                        <li><span>curious,</span></li>
-                        <li style="text-transform: uppercase;"><span><strong>bold,</strong></span></li>
-                        <li><span><em>humble.</em></span></li> 
-                    </ul>
+    <!--=======INTRO=======-->
+    <section id="moodboard-intro" class="">
+       <div class="container-fluid">
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-md-9 m-auto text-center white">
+               <div class="Section-title-container m-auto p-lg-5 p-md-4 p-sm-3 p-xs-1">
+                <h2 class="feature-title text-center">Moodboard
+                </h2>
+               </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12 m-auto">
+                        <p class="super-text gold-one"> <strong>The mind is a powerful and tricky entity. It fools you in countless ways while hiding in plain sight inside or behind any simplistic container to take us across different realms and show how wonderful is the gift of life.</strong></p>
+                        <p class="featured-text">Beauty is entirely subjective and implies that you don't necessarily have to 'own' something to admire it.</p>
+                        <p><small><em>**Most images are mine, and the ones made by other authors are credited accordingly.</em></small></p>
+                    </div>
                 </div>
-                <p>&#9660;<em><a href="#experience">Skip to experience</a></em></p>
-                <p>With 10+ years of experience, Rafael Ricardo has become an adaptive man of independent thinking and strong contrasts by enjoying both analog and digital experiences, who constantly looks out for refinement, new things to learn, and timelessness & growth.</p>
-                <p>He was born in the late eighties to be a kid of the 90s and a teen during the first decade of the 21st Century. This led him to be one of those youngsters with the sufficient privilege to experience firsthand how technology evolves constantly while also being exposed to a wide range of interests and influences.</p>
-                <p>These interests go from sports, photography and books, to <a href="https://www.instagram.com/almosteclectic_/reels/" target="_blank">music collection in physical formats</a> or <a href="https://open.spotify.com/user/sec888" target="_blank">playlist creations</a>, and now there is a growing passion for the <a href="https://www.instagram.com/motorblack.co/" target="_blank">world of motorcycling</a>.</p>
-                <p>He studied in different schools before being admitted into the Jorge Tadeo Lozano University, to obtain with a great effort his bachelor's degree in Graphic design in 2014.</p>
-                <p>During college, time was passing by and also the need to gain real-world experience kept growing, so his first steps [2009] were taken into the now-extinct Valenzuela Klenner Art Gallery in Bogotá by taking some photos, managing the contents of the website and also by giving support to the gallerist during local exhibitions. In early 2012 he worked briefly in a company focused on print production to understand the real difference between CMYK and RGB.</p>
-                <p>In later 2012, Rafael started to work at a call center so he could afford the latter stages of his graphic design studies. Initially, it wasn't more than a job to pay college fees but then he understood (apart from perfecting his english skills) the importance of addressing customer service from the design perspective because we're human beings after all, sometimes we like to take care of each other, and according to him, both visual language and culture play an enormous role on keeping the world sane (to some extent).</p>
             </div>
         </div>
        </div>
     </section>
-<!--=======WHAT I DO=======-->
-    <section id="about" class="about-bio">
-        <div class="container">
-            <div class="row" data-aos="fade-up">
-                <div class="col-md-9 m-auto text-center">
-                   <div class="Section-title-container m-auto p-lg-5 p-md-4 p-sm-3 p-xs-1">
-                    <h2 class="feature-title text-center">Why is this website written in english?
-                    </h2>
-                   </div>
-                    <p class="featured-text"> <strong>To let you know that he's bilingual. That's it.</strong> (;</p>
-                    <p><em>**The projects showcased on this website were mostly carried out in Spanish.</em></p>
-                </div>
-            </div>
-            <div class="row" data-aos="zoom-in">
-                <div class="Section-title-container m-auto p-lg-5 p-md-4 -p-sm-3 p-xs-1">
-                    <h2 class="feature-title text-center">He DOES...
-                    </h2>
-                   </div>
-                <div class="col-md-4">
-                    <h2>Visual design</h2>
-                    <p>By using his experience both as an analog and digital designer, Rafael makes sure that a brand identity can be used to its full extent far beyond the logo in a user-friendly way [as long as the involved parts allow it]. Not just timelessly in its conception, but also usable in today's digital world.</p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Mobile & Web design</h2>
-                    <p>Even though he's had installed and deployed websites <em>(Drupal/Wordpres/Prestashop)</em> on his own, he prefers to focus on the front end. This is really helpful when the time to work side by side with developers comes along because it allows them to communicate in an almost symbiotic way to determine what can and cannot be done in a project, in terms of timely and technical constraints.</p>
-                </div>
-                <div class="col-md-4">
-                    <h2>New him. <strong>Radical.</strong></h2>
-                    <p class="featured-text">
-                        Yes. His set of values and independent thinking make him want to work with thought provokers and people who want/love to defy the conventional and can teach new things to him. <strong>Ego free, of course.</strong> </p>
-                </div>
-            </div>
+<!--=======GRID SECTION 1=======-->
+    <section id="Section1" class="grid-section">
+        <div class="container-fuid">
+            <ul class="moodboard-grid">
+                <li class="col grid-item col1-span-3" data-aos="fade-up" data-aos-delay="1000">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/24-Peek_through-100.jpg" title="Peek through">
+                    </figure>
+                </li>
+
+                <li data-aos="fade-up" class="col grid-item col1-span-2" >
+                    <figure>
+                        <img tabindex="0" class="w-100" src="imgs/moodboard/1-SIGMA-100.jpg" title="Sigma tower">
+                    </figure>
+                </li>
+                
+                <li data-aos="fade-up" class="col grid-item col3-span-1" >
+                    <figure>
+                        <img tabindex="0" class="w-100" src="imgs/moodboard/experiment-lines-and-type6-06.jpg" title="Lines & type">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-3">
+                    <figure>
+                        <img tabindex="4" class="w-100" src="imgs/moodboard/12-VE-exhibition-100.jpg" title="Art exhibition">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-right">
+                    <figure>
+                        <img tabindex="1" class="w-100" src="imgs/moodboard/2-BLUES-100.jpg" title="Neon blues">
+                    </figure>
+                </li>
+
+                <li class="col grid-item">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/3-Blurry-madness-100.jpg" title="Blurry madness">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-left">
+                    <figure>
+                        <img tabindex="3" class="w-100" src="imgs/moodboard/4-DurandJones-100.jpg" title="Durand  Jones / Marantz">
+                    </figure>
+                </li>
+                
+                <li class="col grid-item col1-span-2" data-aos="fade">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/13-Azahar93-100.jpg" title="Azahar 93">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/9-DEEP-100.jpg" title="Deep">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-3">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Pano_CHAPI2-80.jpg" title="Chapi from the hill">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-right">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/28-Segment-camera_Blond-Design-London.jpeg" title="Segment camera by Blond Design">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/10-Swiss-Winter1-100.jpg" title="Swiss winter ride">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-left">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/8-Luminous-plant-100.jpg" title="EVOLVE">
+                    </figure>
+                </li>
+                
+                <li class="col grid-item col1-span-3">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/11-BreakingNews-100.jpg" title="Breaking news: you neet to hang out with people that fit your future, not your past.">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/6-Woman_Lasers-Spheres-100.jpg" title="Woman, spheres & lasers">
+                    </figure>
+                </li>
+
+                <li class="col grid-item align-self-end" data-aos="fade">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/experiment-lines-and-type5-05.jpg" title="Lines & Type 5">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col3-span-1" data-aos="fade-down-right">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/7-Urban-Incognito-100.jpg" title="Urban ninja">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col2-span-1">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/29-challenges.jpg" title="Challenges. Taken from A.Baygulov's IG story.">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-3" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/14-Modular-fragment-100.jpg" title="Modular perspective">
+                    </figure>
+                </li>
+
+                <li class="col grid-item">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/5-Ghost-Invited-100.jpg" title="Ghost Invited">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col2-span-2" data-aos="fade-right">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/18-Fleshgod-100.jpg" title="Fleshgod">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-2">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/19-Fire-setters-100.jpg" title="Fire setters">
+                    </figure>
+                </li>
+
+                <li class="col grid-item">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/30-TheGreatBeauty-100.jpg" title="The Great Beauty">
+                    </figure>
+                </li>
+
+                <li class="col grid-item">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/32-TheTotem-IluminatedSculpture_GMUNK-100.jpg" title="The Totem: illuminated sculpture by GMUNK">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/31-BlowOut-100.jpg" title="Blow Out">
+                    </figure>
+                </li>
+
+                <li class="col grid-item">
+                    <figure>
+                        <img tabindex="5" class="w-100" src="imgs/moodboard/27-Product-DanielParis_Saveeit.jpeg" title="Watch - © Daniel Paris">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-1">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Hanma_V_AliJr2.gif" title="Hanma V Ali">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col3-span-1">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/OFOSOS - Behemoth2.gif" title="OFoSoS become the morning star.">
+                    </figure>
+                </li>
+
+            </ul>
         </div>
     </section>
 
-    <!--=======EXPERIENCE=======-->
-    <section id="experience" class="pb-5" data-aos="fade-up">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 m-auto text-center">
-                   <div class="Section-title-container m-auto p-lg-5 p-md-4 -p-sm-3 p-xs-1">
-                    <h2 class="feature-title text-center">Experience
-                    </h2>
-                   </div>
-                    <p class="featured-text">University gives you grades, friends and knowledge. <br> Life, challenges and change grant you <strong>wisdom.</strong></p>
-                </div>
-            </div>
+<!--=======GRID SECTION 2=======-->
+    <section id="Section2" class="grid-section">
+        <div class="container-fuid">
+            <ul class="moodboard-grid4 p-0">
+                <li class="col grid-item col1-span-4" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/26-488-spider_panoBW-80.jpg" title="488-spider">
+                    </figure>
+                </li>
 
-            <div class="row scrollspy-wrapper mt-lg-5 mb-lg-5 mb-md-5 mb-sm-5 mb-xs-3" role="list">
-                <div class="col-4">
-                  <div id="listExperience" class="list-group" role="listitem" aria-level="1">
-                    <a class="list-group-item list-group-item-action" href="#list-item-1" role="listitem" aria-level="1">Aug 2020 - Dec 2022</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2" role="listitem" aria-level="1">Jul 2016 - Mar 2020</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3" role="listitem" aria-level="1">Aug 2015 - Mar 2016</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4" role="listitem" aria-level="1">2012 - Present</a>
-                  </div>
-                </div>
-                <div class="col-8">
-                  <div data-bs-spy="scroll" data-bs-target="#list-experience" data-bs-smooth-scroll="true" class="scrollspy-items" tabindex="0">
+                <li class="col grid-item col1-span-2" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/25-Macrograph2-100.jpg" title="Quality over quantity 1">
+                    </figure>
+                </li>
 
-                    <!--===============Item 1===============-->
-                    <div id="list-item-1" class="scrollspy-item pt-5" role="listitem" aria-level="2">
-                        <h3>Superintendence of Industry and Commerce</h3>
-                        <p><strong>Role: Designer/Webmaster</strong></p>
-                    <p> Worked for 2<sup>1/2</sup> years as a bridge between the communications office (OSCAE) and the I.T department. Built internal structures with views and custom fields on Drupal for some sections of their actual website, including the gov.co color scheme, which is more notorious both on the header and footer.</p>
-                    <h5>Highlights:</h5>
-                    <ul>
-                        <li>Built and maintained the <a href="https://www.sic.gov.co/notisic" target="_blank">Podcast NotiSIC</a>: 
-                            <ul>
-                                <li>Visual design.</li>
-                                <li>Built the content type with custom fields, blocks & views.</li>
-                                <li>Managed content by publishing episodes on a monthly basis with their respective banner designs for hero sections and  thumbnails for the embedded web audio player.</li>
-                            </ul></li>
-                        <li>Built interactive quizes to be embedded on the "Game" section of the bulletin "Consumo Inteligente". <small><em>I wish I were in charge of the whole design aspect covering from page structure to the whole graphic design to ensure visual consistency across the publications.</em></small></li>
-                        <li>Built newsletters <a href="https://mailchi.mp/22e0c6e69f44/inscribete-sin-costo-en-nuestros-cursos-virtuales-octubre" target="_blank">like this one</a> with custom code on MailChimp and wireframed proposals with case studies to improve some pages/sections' usability across the Entity's website.</li>
-                        <li>Designed the UI and appstore mockups for the mobile app <a href="https://apps.apple.com/tr/app/apppqrfs-sic/id1504801639?platform=iphone" target="_blank">App "Sic a la Mano"</a> </li>
-                        <li>Created a case study to rebuild and improve the content type "Ruta PI" from a Drupal CMS user's perspective. <a href="https://drive.google.com/file/d/1mHEAYG76TlFMjcGGc9X8v_YydngDH-oC/view?usp=share_link" target="_blank">Read the case study here</a> <em>(in spanish)</em></li>
-                    </ul>
-                    </div>
-                    <!--===============Item 2===============-->
-                    <div id="list-item-2" class="scrollspy-item pt-5" role="listitem" aria-level="2">
-                     <h3>Pixel Club S.A.S</h3>
-                     <p><strong>Role: Visual/Web Designer, Webmaster.</strong></p>
-                        <p>Managed and produced content mostly on Drupal for organizations related to the private and public sector. Also designed websites and wrote the CSS for those designed by the teammates, ensuring that brand guidelines were cohesive for each format the content were displayed on.</p>
+                <li class="col grid-item col3-span-2" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/20-Macrograph1-100.jpg" title="Quality over quantity 2">
+                    </figure>
+                </li>
+                
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Estufa-de-lena-80.jpg" title="Food from the country side">
+                    </figure>
+                </li>
 
-                        <h5>Highlights:</h5>
-                        <ul>
-                            
-                            <li><strong><a href="https://www.enterritorio.gov.co/web/" target="_blank" rel="noopener noreferrer">En Territorio</a> & <a href="https://www.medellincomovamos.org/" target="_blank" rel="noopener noreferrer">Medellín Cómo vamos</a>:</strong> CSS styling, content management and dynamic content configuration in some nodes.</li>
-                            <li><strong>Santo & Seña:</strong> graphic design & content mangement for product nodes, special pages showcasing the bookshop novelties, and also contributed with some writing for articles, reviews and product descriptions.</li>
-                            <li><strong>Ingeniar Risk Intelligence's website (2018):</strong> Wireframing and visual design + CSS styling along with Luisa Martínez, and contribution along with Javier Duarte & Nicolás Rey on the site building process (blocks, views and dynamic pages).<br>
-                            Initial content management and customer training to operate the website on their own.</li>
-                            <li><strong>Multisite <a href="http://www.accionbuenaventura.com/" target="_blank" rel="noopener noreferrer">Acción Buenaventura</a>, <a href="http://www.masmeta.co/" target="_blank" rel="noopener noreferrer">Más Meta</a>, REDESCAR + RACES (2018-2020):</strong> Site building in conjunction with Nicolás Rey, interface & graphic design along with Luisa Martínez. Content management and customer support..<br>
-                                Content management and customer training to operate the website on their own.</li>
-                            <li><strong>Superintendence of Industry and Commerce (2016-2017):</strong> content management and graphic design for the website from that period.</li>
-                            <li><strong>Bupa:</strong> content management on the Drupal multisite for Colombia, Bolivia and Mexico.</li>
-                        </ul>
-                    </div>
-                    <!--===============Item 3===============-->
-                    <div id="list-item-3" class="scrollspy-item pt-5" role="listitem" aria-level="2">
-                     <h4>Articulados Comunicación Digital</h3>
-                        <p>Worked as a graphic designer building presentations, images for social media and management reports according to brand guidelines.</p>
-                        <h5>Highlights:</h5>
-                        <ul>
-                            <li><strong>BIFF (Bogotá International Film Festival) 1st Edition, 2015:</strong> <a href="https://www.behance.net/gallery/34322925/BIFF-Bogota-International-film-festival-countdowns" target="_blank" rel="noopener noreferrer">design for social media posts</a> & <a href="https://www.behance.net/gallery/36019619/Bogota-International-Film-Festival-SMM-report-2015" target="_blank" rel="noopener noreferrer">Socialmedia reports.</a></li>
-                            <li><strong>Muestra de Cine Español 2015</strong> <a href="https://www.behance.net/gallery/34263263/Muestra-de-cine-espanol-Social-media-report" target="_blank" rel="noopener noreferrer">Social media report design</a></li>
-                            <li><strong>BOmm 2015 & ARTBO 2015</strong> social media posts and reports</li>
-                            <li><strong>Ambulante Documentary Film Festival 2015</strong> social media management report.</li>
-                        </ul>
-                    </div>
-                    <!--===============Item 4===============-->
-                    <div id="list-item-4" class="scrollspy-item pt-5" role="listitem" aria-level="2">
-                     <h3>Graphic/Web Designer</h3>
-                        <p>Have worked mostly on projects for print, presentations (ppt + Keynotes), website designs for small and corporate businesses, and also have collaborated on artistic projects under <a href="http://escobar.ch/works/2011-paisacres/" target="_blank" rel="noopener noreferrer">Victor Escobar</a>'s wing back in 2010 and 2012 (Tráquira - Paisacres / Blanca Nieve) by helping to manufacture some of the pieces to be displayed on the exhibitions.<br>
-                            When he's not doing design work for clients, he likes to take photos and explore design techniques on his own, mostly as a hobby.</p>
-                        <hr>
-                    </div>
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Contextual-alternates-80.jpg" title="Contextual alternates. Typography talk.">
+                    </figure>
+                </li>
 
-                  </div>
-                </div>
-              </div>
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Give-me-a-compass-80.jpg" title="Give me a reason to not get lost.">
+                    </figure>
+                </li>
+
+                <li class="col grid-item" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Umbrellas-of-LdV-80.jpg" title="Lovely nights at VdL.">
+                    </figure>
+                </li>
+            </ul>
+        </div>               
+    </section>
+<!--=======GRID SECTION 3=======-->
+    <section id="Section3" class="grid-section">
+        <div class="container-fuid">
+            <ul class="moodboard-grid4">
+                <li class="col grid-item col1-span-4" data-aos="fade">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Pilen_rear_left-80.jpg" title="Svartpilen">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-2" data-aos="fade-right">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/Polestar-80.jpg" title="Polestar - © Red Dot Design Award">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col3-span-2" data-aos="fade-left">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/galeria-modular-text-80.jpg" title="Galería Santafé">
+                    </figure>
+                </li>
+
+                <li class="col grid-item col1-span-4" data-aos="fade-up">
+                    <figure>
+                        <img tabindex="2" class="w-100" src="imgs/moodboard/35-NDGT_ALTCINC-100.jpg" title="Cosmos - © ALTCINC">
+                    </figure>
+                </li>
+                
+            </ul>
         </div>
     </section>
 
-    <!--=======MOODBOARD BANNER=====--> 
+<!--=======FEATURED PROJECTS=======-->
     <section id="featured-projects">
-        <div class="container-fluid p-5">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col text-center">
-                    <a class="feature-title-link-wrapper d-block m-auto" href="moodboard.html">
-                        <h2 class="feature-title gold-one m-auto p-md-0 p-sm-3 p-xs-3">Moodboard</h2>
-                    </a>
+                    <h2 class="feature-title gold-one m-auto p-5">Thanks for watching!</h2>
                 </div>
             </div>
         </div>
@@ -235,47 +345,18 @@
     <footer id="globalFooter"></footer>   
 
    <!--=======SCRIPTS=====--> 
-    <!--AOS-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!--AOS.init-->
+   <script src="js/moodboardGrid.js"></script>
+   <!--AOS-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!--AOS.init-->
     <script>
         AOS.init({
             duration:1200
         });
     </script>
-    <!--Prevent page reload after clicking on anchors-->
-    <script>
-        //Prevent page reload after clicking 'Work' on the menu.
-        function func(e){
-            event.preventDefault
-        }
-    </script>
-    <!--Gsap Scrolltrigger-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-    <!-- Initialize Gsap Scrolltrigger -->
-    <script>
-        gsap.to("#foto",{
-            scrollTrigger: {
-                trigger: "#foto",
-                start: "top center",
-                markers: false,
-                scrub: true
-            },
-            y: 150,
-        })
-        gsap.from("#bio-featured-text-wrapper",{
-            scrollTrigger: {
-                trigger: "#foto",
-                scrub: true
-            },
-            y: 250,
-        })
-    </script>
     <!--Jquery is used to display header and footer globally-->
     <script src="js/jquery-3.6.3.min.js"></script>
     <!--Global Header&Footer-->
-    <script src="js/HeaderFooter.js" defer></script>
-    <script src="js/bootstrap.js"></script>  
+    <script src="js/HeaderFooter.js" defer></script> 
 </body>
 </html>
