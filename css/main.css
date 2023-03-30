@@ -59,7 +59,7 @@ html, body {
     /* -webkit-text-stroke: 2px; -webkit-text-stroke-color: var(--gold); */
     font-size: 5.7rem;
     -webkit-text-fill-color:transparent; color: transparent; background-image: linear-gradient(88deg, #b9a157, #51a344, #5063ac, #c23533, #17171d); 
-    background-size: 1000% 1000%;
+    background-size: 1000% 1000%; padding-top: 27px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: HiThereGrad1 5s ease infinite;
