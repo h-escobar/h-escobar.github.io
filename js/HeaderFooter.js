@@ -7,12 +7,12 @@ GlobalHeader.innerHTML = '<nav id="he-nav" class="nav-container grid container p
         '<i class="fa-solid fa-bars"></i>'+
     '</button>'+
     '<ul class="nav-menu d-flex align-items-center nav-items">'+
+        '<li class="p-3 nav-item"><a href="home.html" class="nav-menu-link">Home</a></li>'+
         '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">About</a></li>'+
         '<li id="fp" class="fp p-3 nav-item"><a href="home.html#featured-projects" class="nav-menu-link">Work</a></li>'+
         '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link">Moodboard</a></li>'+
     '</ul>'+
     '</nav>';
-
 
 const GlobalFooter = document.querySelector('#globalFooter');
 
