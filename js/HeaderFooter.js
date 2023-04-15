@@ -39,8 +39,9 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
 '<div class="row social-links">'+
     '<div class="col-md-12 p-3">'+
     '<ul class="d-flex justify-content-end">'+
-        '<li><a href="https://www.linkedin.com/in/rafaelhescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Linkedin"></a></li>'+
         '<li><a href="https://www.behance.net/h-escobar" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Behance"></a></li>'+
+        '<li><a href="https://www.linkedin.com/in/rafaelhescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Linkedin"></a></li>'+
+        '<li><a href="https://www.instagram.com/meetrichardblack_" target="_blank"><img src="imgs/icons/IG-icon.png" alt="Instagram"></a></li>'+
     '</ul>'+
     '</div>'+
 '</div>'+
