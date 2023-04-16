@@ -493,13 +493,19 @@ section#about .about-bio{
       max-width: 700px;
       max-height: 1050px;
       transition: all .75s ease-in-out;
-      filter: grayscale(1);
+      filter: grayscale(0);position: absolute;
+      top: 0; left: 0;
      }
      #main-bio img:hover{filter: grayscale(0);}
+     #foto{position: relative;}
+     #main-bio img.arq1:hover{opacity: 0;}
+     #main-bio img.arq2{opacity: 0;}
+     #main-bio img.arq2:hover{opacity: 1;}
      #main-bio:before{
       content: "";
       position: absolute;
-      background-color: #212529;
+      /* background-color: #212529; */
+      background-color: #0e0e11;
       top: 0;
       left: 0;
       height:
