@@ -177,10 +177,10 @@ html, body {
   .menu a.selected {
     color: var(--secundary-color);
   }
-  .nav-menu-link, #LangSwitcher a{
+  .nav-menu-link, #LangSwitcher a, .cta-body{
     padding: 8px;
   }
-  .nav-menu-link.selected, .nav-menu-link:hover, .nav-menu-link[aria-current="page"], #LangSwitcher:hover, #LangSwitcher a:hover{
+   .cta-body:hover, .nav-menu-link.selected, .nav-menu-link:hover, .nav-menu-link[aria-current="page"], #LangSwitcher:hover, #LangSwitcher a:hover{
     background-color: var(--he-red);
     color: white !important;
   }
@@ -276,6 +276,7 @@ html, body {
     .green-one{color: var(--he-green);}
     .blue-one{color: var(--he-blue);}
     .lightGrey{color: var(--he-light-grey);}
+    .darkGrey{color: var(--he-dark-grey) !important;}
     .ingeniarTxt{color: var(--ingeniar1);}
     .feature-title{font-size: clamp(3em, -0.875em + 8.333333vw, 6em); line-height: clamp(3rem, 1.5vw, 5.3rem); transform: rotateZ(-7deg); font-family: 'Agp-Bold-It' !important; z-index: 10; max-width: 800px; display: block;
     }
