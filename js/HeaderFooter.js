@@ -47,7 +47,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
 '</div>'+
 '<div class="row disclaimer">'+
     '<div class="col-md-12 p-1 text-center">'+
-    '<p class="white"><small><em>Designed and coded with love by Rafael Hinestroza Escobar.</em></small></p>'+
+    '<p class="white"><small><em>Portfolio site designed and coded with love by Rafael Hinestroza Escobar.</em></small></p>'+
     '</div>'+
 '</div>'+
 
