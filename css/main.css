@@ -15,6 +15,9 @@
   --ingeniar3:#39475a;
   --mkro-home1:#17171d;
   --mkro-home2:#ea1515;
+  --mtghfn1:#e65240;
+  --mtghfn2:#ad1918;
+  --mtghfn3:#121212;
   --he-blue:#5063AC;
   --he-red:#c23533;
   --he-green:#51A344;
@@ -278,6 +281,7 @@ html, body {
     .lightGrey{color: var(--he-light-grey);}
     .darkGrey{color: var(--he-dark-grey) !important;}
     .ingeniarTxt{color: var(--ingeniar1);}
+    .mtghfnTxt{color: var(--mtghfn1);}
     .feature-title{font-size: clamp(3em, -0.875em + 8.333333vw, 6em); line-height: clamp(3rem, 1.5vw, 5.3rem); transform: rotateZ(-7deg); font-family: 'Agp-Bold-It' !important; z-index: 10; max-width: 800px; display: block;
     }
    /* .feature-title:before{
@@ -437,7 +441,7 @@ section#about .about-bio{
     background-size: 27%, 100%, 27% !important; position:relative; max-height: 300px;
     display: grid; place-items: center;
   }
-  #ingeniar-home::before{
+  #motoghofen-home::before{
     content: "";
     background-color:var(--mkro-home1);
     display: block; clip-path: polygon(0 9%, 50% 65%, 100% 9%, 100% 0, 0 0); border: none;
@@ -557,6 +561,15 @@ section#about .about-bio{
   /*-------------------------------------*/
   /*-----------SLIDERS DEL HOME--------*/
 
+   /*---MOOTOGHOFEN--------*/
+  #motoghofen-home{
+    background-color: #121212;
+    background-image: url('../imgs/motoghofen/mtghfn_bg.png');
+    background-size: cover; background-position: center;
+  }
+  .mtghfn-home{
+    background-color: transparent;
+  }
    /*---INGENIAR--------*/
   .ingeniar-home{
     /* background-color: var(--ingeniar3); */
