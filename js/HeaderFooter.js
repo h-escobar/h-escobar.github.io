@@ -1,16 +1,16 @@
 const GlobalHeader = document.querySelector('#globalHeader');
 
 GlobalHeader.innerHTML = '<nav id="he-nav" class="nav-container grid container p-3 animate__animated animate__fadeIn">'+
-    '<a href="home.html" class="navbar-brand he-brand of-hidden">'+
+    '<a href="index.html" class="navbar-brand he-brand of-hidden">'+
        '<img src="imgs/icons/header-logo.svg" alt="H-escobaR logo"></a>'+
     '<button class="nav-toggle">'+
         '<i class="fa-solid fa-bars"></i>'+
     '</button>'+
     '<ul class="nav-menu d-flex align-items-center nav-items">'+
-        '<li class="p-3 nav-item"><a href="home.html" class="nav-menu-link">Home</a></li>'+
+        '<li class="p-3 nav-item"><a href="index.html" class="nav-menu-link">Home</a></li>'+
         '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">About</a></li>'+
-        '<li id="fp" class="fp p-3 nav-item"><a href="home.html#featured-projects" class="nav-menu-link">Work</a></li>'+
-        '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link">Moodboard</a></li>'+
+        '<li id="fp" class="fp p-3 nav-item"><a href="index.html#featured-projects" class="nav-menu-link">Work</a></li>'+
+        '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link moodboard-link">Moodboard</a></li>'+
     '</ul>'+
     '</nav>';
 
@@ -23,7 +23,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
     '<div class="col-md-3 wa-menu">'+
     '<a class="wa-link p-xs-3 mb-2 d-block" href="https://wa.me/?text=Hi.%20I am%20interested%20in%20talking%20about%20your%20design%20work.`" target="_blank"><img src="imgs/icons/WhatsApp-Logo.svg" alt="Chat with me via WhatsApp"></a>'+
     '<ul class="ls-type-none">'+
-        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="home.html#featured-projects">Home/Featured work</a></li>'+
+        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="index.html#featured-projects">Home/Featured work</a></li>'+
         '<li class="main-sitemap-link"><a href="https://www.behance.net/h-escobar" target="_blank" class="he-gold footer-parent-link">Old projects</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="bio.html">Bio</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="moodboard.html">Moodboard</a></li>'+
@@ -74,7 +74,7 @@ navToggle.addEventListener("click", () => {
 });
 
 // Hides responsive menu after clicking on the anchor link (Work) and...
-const menuLinks = document.querySelectorAll('.nav-menu li a[href^="home.html#featured-projects"]');
+const menuLinks = document.querySelectorAll('.nav-menu li a[href^="index.html#featured-projects"]');
 //Don't modify this (yet) Pending to add intersection observer
 menuLinks.forEach(menuLink => {
   menuLink.addEventListener("click", function() {
