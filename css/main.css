@@ -144,6 +144,9 @@ html, body {
     --ms-filter: drop-shadow(2px 1px 1px #00000038);
     --webkit-filter: drop-shadow(2px 1px 1px #00000038);
   }
+  .moodboard-link{
+    border: 1px solid var(--he-red);
+  }
   .nav-menu-link_active{
     background-color: var(--he-red);
     padding: 8px;
