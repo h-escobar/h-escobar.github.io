@@ -377,12 +377,12 @@ html, body {
     background-image:url('../imgs/Atrio_OrangeLasers.png');
       max-height: 1800px;
       min-height: 700px;
-      top: 9em;
+      top: 9em; display: none;
   }
   .three/*Laser azul*/ {
       background-image:url('../imgs/Atrio_BlueLasers.png');
       max-width: 1000px;
-      top:10em; min-height:300px;
+      top:10em; min-height:300px;display: none;
   }
 /*____REEL____*/
 #videowrapper::before {
