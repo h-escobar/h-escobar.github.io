@@ -2,13 +2,13 @@ const GlobalHeader = document.querySelector('#globalHeader');
 
 GlobalHeader.innerHTML = '<nav id="he-nav" class="nav-container grid container p-3 animate__animated animate__fadeIn">'+
     '<a href="index.html" class="navbar-brand he-brand of-hidden">'+
-       '<img src="imgs/icons/header-logo.svg" alt="H-escobaR logo"></a>'+
+       '<img src="imgs/icons/RB-logo-nav.svg" alt="Meet Richard Black logo"></a>'+
     '<button class="nav-toggle">'+
         '<i class="fa-solid fa-bars"></i>'+
     '</button>'+
     '<ul class="nav-menu d-flex align-items-center nav-items">'+
         '<li class="p-3 nav-item"><a href="index.html" class="nav-menu-link">Home</a></li>'+
-        '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">About</a></li>'+
+        '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">Bio</a></li>'+
         '<li id="fp" class="fp p-3 nav-item"><a href="index.html#featured-projects" class="nav-menu-link">Work</a></li>'+
         '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link moodboard-link">Moodboard</a></li>'+
     '</ul>'+
@@ -47,7 +47,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
 '</div>'+
 '<div class="row disclaimer">'+
     '<div class="col-md-12 p-1 text-center">'+
-    '<p class="white"><small><em>Portfolio site designed and coded with love by Rafael Hinestroza Escobar.</em></small></p>'+
+    '<p class="white"><small><em>Portfolio site designed and coded with ❤ by Richard Black.</em></small></p>'+
     '</div>'+
 '</div>'+
 
