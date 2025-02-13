@@ -45,7 +45,7 @@
         background-color: #0000002b; border-left: 1px solid; border-right: 1px solid; text-transform: uppercase;
     }
     /*--------------TEXTOS------------*/
-    .feature-title{margin: 5rem auto; max-width: 900px; line-height: 6rem;}
+    .feature-title{margin: 5rem auto; max-width: 900px; line-height: 8rem;}
     /*-----------FOOTER---------*/
     .block-widget iframe{
         min-height: 500px;
@@ -136,10 +136,10 @@
        position: fixed; border-bottom: .5px solid #b9a15733;
    }
     a.navbar-brand.he-brand{
-       height: 50px; width: 50px; margin-top: -15px;
+       height: 50px; width: 50px; margin-top: -15px; background-color: transparent;
     }
     a.navbar-brand.he-brand img{
-       display: block; margin: -5px auto; max-width: 50px !important;
+       display: block; margin: -36px auto; max-width: 50px !important;
     }
     .nav-toggle{
        display: block; position: fixed; top:10px; right: 0; margin-right: 25px;
@@ -176,7 +176,7 @@
    }
 
     /*-----------TEXTOS---------*/
-    #hi{font-size:2em;}
+    #hi{font-size:4.6em;}
       .super-text{font-size: 1.5rem; line-height: 2rem !important;}
 
    /*--------------SECCIONES------------*/
@@ -210,7 +210,7 @@
    }
 
     /*--- IMÁGENES PARALLAX -------*/
-    .one{top:calc(-21em + 7rem); opacity: .8;}
+    .one{display: none; top:calc(-21em + 7rem); opacity: .8;}
 
     /*-------- SLIDERS DEL HOME--------*/
     .slider__wrapper{
@@ -360,7 +360,7 @@
     /*------TEXTO ANIMADO BIO----*/
     .dynamic-text-wrapper{
         display: flex;  justify-content: center;
-        padding-left: ; 
+        padding-left: 0; 
         margin-top: 2rem;
     }
     /*-------------------------------------*/
@@ -406,10 +406,13 @@
         font-size: 3rem;
     }
     #he-hero .text-wrapper{
-        bottom: 12rem;
+        bottom: 4rem;
     }
     section#about .skills-home ul{
         padding-left: 180px !important;
+    }
+    #text-wrapper .cta-wrapper {
+        display: none;
     }
     #text-wrapper .cta-wrapper a img{
        position: absolute; display: block; bottom: 0;
