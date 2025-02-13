@@ -1,9 +1,26 @@
 @font-face {
+	font-family: 'htf47';
+	src: url('../fonts/Knockout-HTF47-Bantamweight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'htf50';
+	src: url('../fonts/Knockout-HTF50-Welterweight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'htf69';
+	src: url('../fonts/Knockout-Knockout-HTF69-FullLiteweight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
 	font-family: 'Agp-Bold';
 	src: url('../fonts/Adobe-Garamond-ProBold.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-    color: aqua;
 }
 @font-face {
 	font-family: 'Agp-Bold-It';
