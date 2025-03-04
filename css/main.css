@@ -57,7 +57,7 @@ html, body {
   p a, ul a :not(.nav-menu .nav-menu-link){color: var(--he-red) !important;}
   p a:hover, ul a:hover{color: var(--gold) !important;}
   .feature-title-link-wrapper{
-    max-width: 500px;
+    max-width: 720px;
   }
   a .feature-title{transition: all .35s ease-in-out; position: relative;}
   a .feature-title:hover{
@@ -71,6 +71,7 @@ html, body {
     -moz-animation: HiThereGrad1 5s ease infinite;
     -o-animation: HiThereGrad1 5s ease infinite;
     animation: HiThereGrad1 5s ease infinite;
+      line-height: normal;
   }
   @-webkit-keyframes HiThereGrad1 {
     0%{background-position:0% 51%}
