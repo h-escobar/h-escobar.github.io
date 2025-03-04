@@ -45,7 +45,7 @@
         background-color: #0000002b; border-left: 1px solid; border-right: 1px solid; text-transform: uppercase;
     }
     /*--------------TEXTOS------------*/
-    .feature-title{margin: 5rem auto; max-width: 900px; line-height: 8rem;}
+    .feature-title:not(.project-title){margin: 5rem auto; max-width: 1080px; line-height: 3rem;}
     /*-----------FOOTER---------*/
     .block-widget iframe{
         min-height: 500px;
