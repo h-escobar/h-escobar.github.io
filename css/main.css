@@ -292,6 +292,7 @@ html, body {
     .mtghfnTxt{color: var(--mtghfn1);}
     .feature-title{font-size: clamp(10em, -0.875em + 8.333333vw, 20em); line-height: clamp(3rem, 1.5vw, 5.3rem); transform: rotateZ(-7deg); font-family: 'htf47' !important; z-index: 10; max-width: 800px; display: block; text-transform: uppercase; letter-spacing: 2.5px; font-weight: bold; 
     }
+    .project-title{line-height: 9.4rem;}
    /* .feature-title:before{
     content: "{";
     position: absolute;
@@ -470,6 +471,7 @@ section#about .about-bio{
     background-position: top left, center, top right;
     background-size: 27%, 100%, 27% !important; position:relative; max-height: 300px;
     display: grid; place-items: center;
+      min-height: 400px;
   }
   #motoghofen-home::before{
     content: "";
