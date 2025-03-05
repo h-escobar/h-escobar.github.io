@@ -46,6 +46,7 @@
     }
     /*--------------TEXTOS------------*/
     .feature-title:not(.project-title){margin: 5rem auto; max-width: 1080px; line-height: 3rem;}
+    .feature-title.tyw{line-height: 10rem;}
     /*-----------FOOTER---------*/
     .block-widget iframe{
         min-height: 500px;
