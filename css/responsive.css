@@ -286,6 +286,7 @@
     .feature-title{
         line-height: 2.6rem; margin: 2rem auto !important;
     }
+    .feature-title.tyw{line-height: 5.6rem; }
     /*INTRO*/
     /* #main-header{
         height: calc(100vh - 30%);  
