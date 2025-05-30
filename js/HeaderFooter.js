@@ -10,7 +10,7 @@ GlobalHeader.innerHTML = '<nav id="he-nav" class="nav-container grid container p
         '<li class="p-3 nav-item"><a href="index.html" class="nav-menu-link">Home</a></li>'+
         '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">Bio</a></li>'+
         '<li id="fp" class="fp p-3 nav-item"><a href="index.html#featured-projects" class="nav-menu-link">Client Work</a></li>'+
-        '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link moodboard-link">Archive</a></li>'+
+        '<li class="p-3 nav-item"><a href="archive.html" class="nav-menu-link moodboard-link">Archive</a></li>'+
     '</ul>'+
     '</nav>';
 
@@ -26,7 +26,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="index.html#featured-projects">Home/Featured work</a></li>'+
         '<li class="main-sitemap-link"><a href="https://www.behance.net/h-escobar" target="_blank" class="he-gold footer-parent-link">Previous work</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="bio.html">Bio</a></li>'+
-        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="moodboard.html">Archive</a></li>'+
+        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="archive.html">Archive</a></li>'+
     '</ul>'+
     '</div>'+
 
