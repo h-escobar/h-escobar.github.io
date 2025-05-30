@@ -9,8 +9,8 @@ GlobalHeader.innerHTML = '<nav id="he-nav" class="nav-container grid container p
     '<ul class="nav-menu d-flex align-items-center nav-items">'+
         '<li class="p-3 nav-item"><a href="index.html" class="nav-menu-link">Home</a></li>'+
         '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">Bio</a></li>'+
-        '<li id="fp" class="fp p-3 nav-item"><a href="index.html#featured-projects" class="nav-menu-link">Work</a></li>'+
-        '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link moodboard-link">Moodboard</a></li>'+
+        '<li id="fp" class="fp p-3 nav-item"><a href="index.html#featured-projects" class="nav-menu-link">Client Work</a></li>'+
+        '<li class="p-3 nav-item"><a href="moodboard.html" class="nav-menu-link moodboard-link">Archive</a></li>'+
     '</ul>'+
     '</nav>';
 
@@ -24,9 +24,9 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
     '<a class="wa-link p-xs-3 mb-2 d-block" href="https://wa.me/?text=Hi.%20I am%20interested%20in%20talking%20about%20your%20design%20work.`" target="_blank"><img src="imgs/icons/WhatsApp-Logo.svg" alt="Chat with me via WhatsApp"></a>'+
     '<ul class="ls-type-none">'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="index.html#featured-projects">Home/Featured work</a></li>'+
-        '<li class="main-sitemap-link"><a href="https://www.behance.net/h-escobar" target="_blank" class="he-gold footer-parent-link">Old projects</a></li>'+
+        '<li class="main-sitemap-link"><a href="https://www.behance.net/h-escobar" target="_blank" class="he-gold footer-parent-link">Previous work</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="bio.html">Bio</a></li>'+
-        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="moodboard.html">Moodboard</a></li>'+
+        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="moodboard.html">Archive</a></li>'+
     '</ul>'+
     '</div>'+
 
@@ -39,9 +39,9 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
 '<div class="row social-links">'+
     '<div class="col-md-12 p-3">'+
     '<ul class="d-flex justify-content-end">'+
-        '<li><a href="https://www.behance.net/h-escobar" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Behance"></a></li>'+
-        '<li><a href="https://www.linkedin.com/in/rafaelhescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Linkedin"></a></li>'+
-        '<li><a href="https://www.instagram.com/meetrichardblack_" target="_blank"><img src="imgs/icons/IG-icon.png" alt="Instagram"></a></li>'+
+        '<li><a href="https://www.behance.net/h-escobar" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Behance H-EscobaR"></a></li>'+
+        '<li><a href="https://www.linkedin.com/in/ricardohescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Linkedin ricardohescobar"></a></li>'+
+        '<li><a href="https://www.instagram.com/meetrichardblack_" target="_blank"><img src="imgs/icons/IG-icon.png" alt="Instagram Meet Richard Black"></a></li>'+
     '</ul>'+
     '</div>'+
 '</div>'+
