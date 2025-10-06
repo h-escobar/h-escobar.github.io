@@ -274,8 +274,8 @@ html, body {
                      }
 
    #hi{
-    -webkit-text-stroke: 2px; -webkit-text-stroke-color: var(--he-blue); -webkit-text-fill-color:#181818;
-    font-size: 2.3em; line-height: 5.4rem; text-transform: uppercase;
+    -webkit-text-stroke: 1.5px; -webkit-text-stroke-color: var(--he-cream); -webkit-text-fill-color:#181818;
+    font-size: 2.3em; line-height: 3.7rem; text-transform: uppercase; letter-spacing:3px; display:block; margin-bottom:0;
    }
    #hi.esp{ font-size: 2.3em;}
 
