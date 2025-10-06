@@ -177,7 +177,7 @@
    }
 
     /*-----------TEXTOS---------*/
-    #hi{font-size:4.6em;}
+    #hi{font-size:2.3em;}
       .super-text{font-size: 1.5rem; line-height: 2rem !important;}
 
    /*--------------SECCIONES------------*/
@@ -319,7 +319,7 @@
         padding: 0 !important;
     }
     #text-wrapper .col{
-        max-height: 130px;
+        max-height: 200px;
     }
     #text-wrapper .cta-wrapper{
       order: 3 !important; margin-bottom: 1rem; margin-top: 0; max-height: 50px;
