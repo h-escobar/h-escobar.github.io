@@ -269,11 +269,13 @@ html, body {
    h1,h2,h3,h4,h5,h6{font-family: 'htf47' !important; margin-bottom: 3rem;}
    h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong{font-family: 'htf47' !important; margin-bottom: 3rem;}
   ul li{line-height: 1.3rem;}
-   #hi-there:not(#hi){font-size: clamp(2.7em, -0.875em + 8.333333vw, 4em);margin-bottom: 0; line-height:clamp(1em, -0.875em + 8.333333vw, 1em); color: white; display: block; margin-bottom: 17px;}
+   #hi-there:not(#hi){font-size: clamp(2em, -0.875em + 8.333333vw, .7em);margin-bottom: 0; line-height:clamp(1em, -0.875em + 8.333333vw, 1em);
+                      color: white; display: block; margin-bottom: 17px;letter-spacing: 1px;
+                     }
 
    #hi{
     -webkit-text-stroke: 2px; -webkit-text-stroke-color: var(--he-blue); -webkit-text-fill-color:#181818;
-    font-size: 3em; text-transform: uppercase;
+    font-size: 2.3em; line-height: 5.4rem; text-transform: uppercase;
    }
    #hi.esp{ font-size: 2.3em;}
 
@@ -291,7 +293,7 @@ html, body {
     .darkGrey{color: var(--he-dark-grey) !important;}
     .ingeniarTxt{color: var(--ingeniar1);}
     .mtghfnTxt{color: var(--mtghfn1);}
-    .feature-title{font-size: clamp(6em, -0.875em + 8.333333vw, 20em); line-height: clamp(3rem, 1.5vw, 5.3rem); transform: rotateZ(-7deg); font-family: 'htf47' !important; z-index: 10; max-width: 800px; display: block; text-transform: uppercase; letter-spacing: 2.5px; font-weight: bold; 
+    .feature-title{font-size: clamp(6em, -0.875em + 8.333333vw, 20em); line-height: clamp(3rem, 1.5vw, 5.3rem); /*transform: rotateZ(-7deg);*/ font-family: 'htf47' !important; z-index: 10; max-width: 800px; display: block; text-transform: uppercase; letter-spacing: 2.5px; font-weight: bold; 
     }
     .project-title{line-height: 9.4rem;}
    /* .feature-title:before{
@@ -406,6 +408,16 @@ html, body {
     height: -webkit-fill-available;
     object-fit: cover;
   }
+
+/*Columna Derecha*/
+.float--right{
+     padding: 1.4rem !important;
+    /* border: 3px solid green; */
+    max-height: 600px;
+    background-color: #0009;
+    overflow: scroll;
+    border-radius: 5%;
+}
   
 
 /*____ABSTRACT____*/
