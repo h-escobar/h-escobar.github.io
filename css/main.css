@@ -101,7 +101,20 @@ html, body {
     background-position: center;background-size: contain;
     left: 0;
   }
-
+.cta-btn{
+    border: 1px solid var(--he-red);
+    padding: 8px;
+    display: inline-block;
+    max-width: 120px;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Av-Book, sans-serif !important;
+    font-size: 1rem;
+}
+.cta-btn:hover{
+    background-color: var(--he-red);
+    color: white !important;
+}
   /*-------------------------------------*/
   /*-----------GLOBAL HEADER/FOOTER---------*/
   #globalHeader{
