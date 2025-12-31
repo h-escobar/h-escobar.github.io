@@ -28,7 +28,7 @@
   --he-light-grey:#f8f9f9;
 }
 html, body {
-    background-color:var(--he-bg-body);
+    background-color: var(--he-darker-grey) !important;
     /* height: 100%; */
     min-height: 100vh;
     color: var(--mkro-home1);
@@ -62,7 +62,7 @@ html, body {
   a .feature-title{transition: all .35s ease-in-out; position: relative;}
   a .feature-title:hover{
     /* -webkit-text-stroke: 2px; -webkit-text-stroke-color: var(--gold); */
-    font-size: 5.7rem;
+    /* font-size: 5.7rem; */
     -webkit-text-fill-color:transparent; color: transparent; background-image: linear-gradient(88deg, #b9a157, #51a344, #5063ac, #c23533, #17171d); 
     background-size: 1000% 1000%; padding-top: 27px;
     -webkit-background-clip: text;
@@ -114,6 +114,12 @@ html, body {
 .cta-btn:hover{
     background-color: var(--he-red);
     color: white !important;
+}
+.ext-link:after{
+    content: url('../imgs/icons/noun-external-link.svg');
+    display: inline-block;
+    margin-left: 4px;
+    width: 14px; height: 14px;
 }
   /*-------------------------------------*/
   /*-----------GLOBAL HEADER/FOOTER---------*/
@@ -340,6 +346,16 @@ html, body {
    }
    .super-text{font-size: 2.8rem; line-height: 4rem !important;}
 
+   /*Sección "Achievements"*/
+   .achievements-title{
+    font-size: clamp(3rem, 2.75rem + 1.3333vw, 4rem) !important;
+}
+.achievements-list li{
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+}
+
 /*--------------------------------------------*/
   /*--------------SECCIONES------------*/
   section[id]{
@@ -498,6 +514,12 @@ section#about .about-bio{
     background-size: 27%, 100%, 27% !important; position:relative; max-height: 300px;
     display: grid; place-items: center;
       min-height: 400px;
+  } 
+  section#featured-projects.old-proj{
+background-image: url('../imgs/bgs/bg-behance-blur.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover !important;
+    background-position: center;
   }
   #motoghofen-home::before{
     content: "";
@@ -692,6 +714,11 @@ section#about .about-bio{
   .mkro-home-title{
     color: #ea1515;
   }
+
+   /*---SIC super--------*/
+   #sic-home{
+    background-color: #36c;
+   }
 
    /*---S&S--------*/
    .sys-home{
