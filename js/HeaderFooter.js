@@ -24,7 +24,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
     '<a class="wa-link p-xs-3 mb-2 d-block" href="https://wa.me/?text=Hi.%20I am%20interested%20in%20talking%20about%20your%20design%20work.`" target="_blank"><img src="imgs/icons/WhatsApp-Logo.svg" alt="Chat with me via WhatsApp"></a>'+
     '<ul class="ls-type-none">'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="index.html#featured-projects">Home/Featured work</a></li>'+
-        '<li class="main-sitemap-link"><a href="https://www.behance.net/h-escobar" target="_blank" class="he-gold footer-parent-link">Previous work</a></li>'+
+        '<li class="main-sitemap-link"><a href="https://www.behance.net/meetrichardblack" target="_blank" class="he-gold footer-parent-link">Previous work</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="bio.html">Bio</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="archive.html">Archive</a></li>'+
     '</ul>'+
@@ -39,7 +39,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
 '<div class="row social-links">'+
     '<div class="col-md-12 p-3">'+
     '<ul class="d-flex justify-content-end">'+
-        '<li><a href="https://www.behance.net/h-escobar" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Behance H-EscobaR"></a></li>'+
+        '<li><a href="https://www.behance.net/meetrichardblack" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Behance H-EscobaR"></a></li>'+
         '<li><a href="https://www.linkedin.com/in/ricardohescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Linkedin ricardohescobar"></a></li>'+
         '<li><a href="https://www.instagram.com/meetrichardblack_" target="_blank"><img src="imgs/icons/IG-icon.png" alt="Instagram Meet Richard Black"></a></li>'+
     '</ul>'+
