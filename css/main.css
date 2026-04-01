@@ -41,6 +41,7 @@ html, body {
   html > #moodboard{
     background-color: var(--he-darker-grey) !important;
   }
+#bio{background-color:#f5f5f5 !important;}
   /*-------------------------------------*/
   /*-----------CLASES GENÉRICAS---------*/
   .grid{display:grid;}
