@@ -10,7 +10,7 @@ GlobalHeader.innerHTML = '<nav id="he-nav" class="nav-container grid container p
         '<li class="p-3 nav-item"><a href="index.html" class="nav-menu-link">Home</a></li>'+
         '<li class="p-3 nav-item"><a href="bio.html" class="nav-menu-link">Bio</a></li>'+
         '<li id="fp" class="fp p-3 nav-item"><a href="index.html#featured-projects" class="nav-menu-link">Client Work</a></li>'+
-        '<li class="p-3 nav-item"><a href="archive.html" class="nav-menu-link moodboard-link">Archive</a></li>'+
+        '<li class="p-3 nav-item"><a href="personal.html" class="nav-menu-link moodboard-link ucase">Personal</a></li>'+
     '</ul>'+
     '</nav>';
 
@@ -26,7 +26,7 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="index.html#featured-projects">Home/Featured work</a></li>'+
         '<li class="main-sitemap-link"><a href="https://www.behance.net/meetrichardblack" target="_blank" class="he-gold footer-parent-link">Previous work</a></li>'+
         '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="bio.html">Bio</a></li>'+
-        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link" href="archive.html">Archive</a></li>'+
+        '<li class="main-sitemap-link"><a class="he-gold footer-parent-link ucase" href="personal.html">Personal</a></li>'+
     '</ul>'+
     '</div>'+
 
@@ -39,9 +39,9 @@ GlobalFooter.innerHTML = '<div class="container pt-5">'+
 '<div class="row social-links">'+
     '<div class="col-md-12 p-3">'+
     '<ul class="d-flex justify-content-end">'+
-        '<li><a href="https://www.behance.net/meetrichardblack" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Behance H-EscobaR"></a></li>'+
-        '<li><a href="https://www.linkedin.com/in/ricardohescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Linkedin ricardohescobar"></a></li>'+
-        '<li><a href="https://www.instagram.com/meetrichardblack_" target="_blank"><img src="imgs/icons/IG-icon.png" alt="Instagram Meet Richard Black"></a></li>'+
+        '<li><a href="https://www.behance.net/meetrichardblack" target="_blank"><img src="imgs/icons/behance-icon.png" alt="Richard Black on Behance"></a></li>'+
+        '<li><a href="https://www.linkedin.com/in/ricardohescobar" target="_blank"><img src="imgs/icons/in-icon.png" alt="Richard Black on Linkedin"></a></li>'+
+        '<li><a href="https://www.instagram.com/meetrichardblack_" target="_blank"><img src="imgs/icons/IG-icon.png" alt="Richard Black on Instagram"></a></li>'+
     '</ul>'+
     '</div>'+
 '</div>'+
