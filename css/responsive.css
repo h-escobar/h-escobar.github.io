@@ -114,6 +114,7 @@
 
 @media (max-width: 1024px){
     .feature-title{line-height: 5rem !important;}
+    .achievements-list li{font-size:1.2rem;}
 }
 /*-------------------------------------*/
 /*-------------------------------------*/
