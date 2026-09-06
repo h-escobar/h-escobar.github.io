@@ -115,7 +115,7 @@
 @media (max-width: 1024px){
     .feature-title{line-height: 5rem !important;}
     .achievements-list li{font-size:1.2rem;}
-    #main-case-study.case-studyMko2:before{width: 100%;}
+    #main-bio:before,#main-case-study:before{width: 100%;}
 
     /*Comparador logos Makro Office*/
     div#comparison figure div{
